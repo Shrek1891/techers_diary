@@ -32,10 +32,6 @@ export const getLessons = async ({filter, sortBy}) => {
 
     }
 
-    console.log(formatDate(new Date()));
-    console.log(data)
-    console.log(data[1].date === formatDate(new Date()))
-    console.log(data[1].date.split("-").filter((filter, index) => filter === formatDate(new Date())[index]));
 
     return data;
 }
