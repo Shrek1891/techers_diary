@@ -13,7 +13,7 @@ const useLogin = () => {
         }),
         onSuccess: (user) => {
             queryClient.setQueryData(['user'], user.user);
-            navigate('/dashboard', {replace: true});
+            navigate('/lessons', {replace: true});
 
 
         },
