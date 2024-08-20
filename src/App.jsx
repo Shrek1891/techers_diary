@@ -35,7 +35,7 @@ function App() {
                         }>
                         </Route>
                         <Route element={<AppLayout/>}>
-                            <Route index element={<Navigate to="lessons" replace/>}/>
+                            <Route index element={<Navigate to="login" replace/>}/>
                             <Route path="courses" element={<Courses/>}/>
                             <Route path="students" element={<Students/>}/>
                             <Route path="lessons" element={<Lessons/>}/>
